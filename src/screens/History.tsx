@@ -19,7 +19,7 @@ export function History() {
     <VStack flex={1}>
       <ScreenHeader title={'Histórico de Exercícios'} />
 
-      <SectionList 
+      <SectionList
         sections={exercises}
         keyExtractor={item => item}
         renderItem={({ item }) => (
